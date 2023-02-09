@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * Description: main- assign a random number to the variable n eac time it is executed
+ * Description: main- assign a random number to the variable n
  * The string last digit of n
  *return: 0 on sucess
  */
