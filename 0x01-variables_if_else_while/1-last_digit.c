@@ -1,12 +1,13 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/**
- * Decription: main- Determine if the last digit of a random number is 
- * greater than or less than 5, or is zero..
 
+/**
+ * Description: main- assign a random number to the variable n eac time it is executed
+ * The string last digit of n
  *return: 0 on sucess
  */
+
 int main(void)
 {
 	int n;
