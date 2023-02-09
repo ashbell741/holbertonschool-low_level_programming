@@ -1,8 +1,12 @@
 #include <stdio.h>
 /**
- * main - prints the alphabet in lowercase.
- * return: 0 on sucess
+ * main - entry point
+ *
+ * Description: prints the alphabet in lowercase.
+ *
+ * Return: 0 on success
  */
+
 int main(void)
 {
 	char c = 'a';
