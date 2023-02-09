@@ -2,7 +2,8 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * Decription: main- Determine if the last digit of a random number is greater than or less than 5, or is zero..
+ * Decription: main- Determine if the last digit of a random number is 
+ * greater than or less than 5, or is zero..
 
  *return: 0 on sucess
  */
