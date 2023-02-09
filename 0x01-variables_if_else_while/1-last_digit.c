@@ -5,7 +5,8 @@
 /**
  * Description: main- assign a random number to the variable n
  * The string last digit of n
- *return: 0 on sucess
+ *
+ *Return: 0 on sucess
  */
 
 int main(void)
