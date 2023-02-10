@@ -1,18 +1,17 @@
 #include <stdio.h>
 /**
- * main - prints numbers 0-9 without using char or printf/puts,
- * and putchar 2x max
+ * main - prints the alphabet in reverse.
  *
  * Return: 0 on success
  */
 int main(void)
 {
-	int i = '0';
+	char c = 'z';
 
-	while (i <= '9')
+	while (c >= 'a')
 	{
-		putchar(i);
-		i++;
+		putchar(c);
+		c--;
 	}
 	putchar('\n');
 	return (0);
