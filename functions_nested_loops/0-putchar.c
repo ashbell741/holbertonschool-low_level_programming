@@ -1,18 +1,21 @@
 #include "_putchar"
+
 /**
- * main - prints the string "_putchar" from a character array.
- * Return: 0 on success.
- */
+ 	* main - Entry point
+	*
+	* Return: Always 0
+	*/
 int main(void)
 {
-	char _putchar[9] ={ '_', 'p', 'u', 't', 'c', 'h', 'a', 'r'};
-	int i;
-
-	for (i = 0; i < 9; i++)
-	{
-		_putchar(_putchar[i]);
-	}
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
 	_putchar('\n');
+
 	return (0);
 }
-
