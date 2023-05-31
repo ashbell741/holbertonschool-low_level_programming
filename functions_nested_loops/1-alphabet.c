@@ -1,18 +1,28 @@
 #include <stdio.h>
+
 /**
- * main - check the code
+ * print_alphabet - Prints the lowercase alphabet followed by a new line.
  *
- * Return: always 0.
  */
 
 void print_alphabet(void)
 {
 	char letter;
 	for (letter = 'a'; letter <= 'z'; letter++)
-	 {
+	{
 			 putchar(letter);
-	 }
+	}
 
-		putchar('\n');
+	putchar('\n');
 }
 
+/**
+ * main - Entry point of the program 
+ *
+ * Return: Always 0 (Success)
+ */
+int main(void)
+{
+	print_alphabet();
+	return 0;
+}
